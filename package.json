@@ -1,0 +1,29 @@
+{
+  "name": "ts-decorators",
+  "version": "1.0.0",
+  "description": "Demo for using javascript decorators",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    }
+  },
+  "keywords": [
+    "typescript",
+    "decorators"
+  ],
+  "author": "Terry Yuen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
